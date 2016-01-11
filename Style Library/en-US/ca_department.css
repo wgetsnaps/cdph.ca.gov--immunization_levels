@@ -1,0 +1,399 @@
+﻿/*---------------------------------------------*/
+/*  ca_department.css                          */
+/*  Version 1.20                               */
+/* Last Updated 03/23/2007                     */
+/*                                             */
+/*  Department-specific styles                 */
+/*---------------------------------------------*/
+
+/*---------------------------------------------*/
+/*  main_content_1                             */
+/*---------------------------------------------*/
+
+
+#h3_caro {
+	font-size: 1.2em;
+	color: #999999;
+	padding-top: 7px;
+	margin-top: 0px;
+	padding-left: 3px;
+	font-size: 1.2em;
+	color: #999999;
+	padding-top: 3px
+}
+
+.block_with_rounded_corners {
+ width:99%;
+ background:#fff;
+ border-style:solid;
+ border-color:#669966;
+  border-color:#000;
+ border-width:1px 1px 1px 1px;
+ position:relative; /* Make this the containing block of the corner spans */
+ margin-bottom:16px;
+}
+
+.block_with_rounded_corners h3 {
+ background:#456636;
+ color:#fff;
+ padding:5px 10px 5px 10px;
+ margin:0px;
+/* background:#000 url("../images/HeaderBackgroundSeal.jpg") no-repeat;
+*/}
+
+.block_with_rounded_corners .bottom_right {
+ position:absolute;
+ width:6px;
+ height:6px;
+ font-size:1px;
+ bottom:-2px;
+ right:-2px;
+/* background: url(/images/block_with_image_corners.gif) top left no-repeat;
+*/}
+.block_with_rounded_corners .bottom_left {
+ position:absolute;
+ width:6px;
+ height:6px;
+ font-size:1px;
+ bottom:-2px;
+ left:-2px;
+/* background: url(/images/block_with_image_corners.gif) top right no-repeat;
+*/}
+.block_with_rounded_corners .top_right {
+ position:absolute;
+ width:6px;
+ height:6px;
+ font-size:1px;
+ top:-1px;
+ right:-2px;
+ background: url(http://www.cdph.ca.gov/images/block_with_image_corners.gif) bottom left no-repeat;
+}
+.block_with_rounded_corners .top_left {
+ position:absolute;
+ width:6px;
+ height:6px;
+ font-size:1px;
+ top:-1px;
+ left:-2px;
+ background: url(http://www.cdph.ca.gov/images/block_with_image_corners.gif) bottom right no-repeat;
+}
+
+.block_with_rounded_corners .list_decorative_dark a:hover {
+ background:transparent; /* Fixes problem in IE (dotted line disappears) */
+}
+
+/*  End of block_with_rounded_corners */
+
+
+/*--------------------------------------------------*/
+/*  block_with_rounded_corners for Carousel         */
+/*  Adds rounded corners and blue bar for heading   */
+/*--------------------------------------------------*/
+
+.block_with_rounded_corners_caro {
+	width:99%;
+	border-style:solid;
+	border-color:#669966;
+	border-color:#000;
+	border-width:1px 1px 1px 1px;
+	position:relative; /* Make this the containing block of the corner spans */
+	margin-bottom:16px;
+}
+
+.block_with_rounded_corners_caro h3 {
+	color:#fff;
+	padding:5px 10px 5px 10px;
+	margin:0px;
+/* background:#000 url("../images/HeaderBackgroundSeal.jpg") no-repeat;
+*/}
+
+.block_with_rounded_corners_caro .bottom_right {
+ position:absolute;
+ width:6px;
+ height:6px;
+ font-size:1px;
+ bottom:-2px;
+ right:-2px;
+ background: url(http://www.cdph.ca.gov/images/block_with_image_corners_caro3.gif) top left no-repeat;
+}
+
+.block_with_rounded_corners_caro .bottom_left {
+ position:absolute;
+ width:6px;
+ height:6px;
+ font-size:1px;
+ bottom:-2px;
+ left:-2px;
+ background: url(http://www.cdph.ca.gov/images/block_with_image_corners_caro3.gif) top right no-repeat;
+}
+.block_with_rounded_corners_caro .top_right {
+	position:absolute;
+	width:6px;
+	height:6px;
+	font-size:1px;
+	top:-1px;
+	right:-3px;
+	background: url(http://www.cdph.ca.gov/images/block_with_image_corners_caro3.gif) bottom left no-repeat;
+}
+.block_with_rounded_corners_caro .top_left {
+	position:absolute;
+	width:6px;
+	height:6px;
+	font-size:1px;
+	top:0px;
+	left:-2px;
+	background: url(http://www.cdph.ca.gov/images/block_with_image_corners_caro3.gif) bottom right no-repeat;
+}
+.block_with_rounded_corners_caro .list_decorative_dark a:hover {
+ background:transparent; /* Fixes problem in IE (dotted line disappears) */
+}
+/*  End of block_with_rounded_corners */
+
+
+
+
+/*--------------------------------------------------*/
+/*  sh_block_with_rounded_corners for Carousel         */
+/*  Adds rounded corners and blue bar for heading   */
+/*--------------------------------------------------*/
+
+.sh_block_with_rounded_corners_caro {
+	width:99%;
+	border-color:#4d7fb2;
+	position:relative; /* Make this the containing block of the corner spans */
+	margin-bottom:16px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+.sh_block_with_rounded_corners_caro h3 {
+	color:#fff;
+	margin:0px;
+/* background:#000 url("../images/HeaderBackgroundSeal.jpg") no-repeat;
+*/}
+
+.sh_block_with_rounded_corners_caro .bottom_right {
+	position:absolute;
+	width:6px;
+	height:6px;
+	font-size:1px;
+	bottom:-2px;
+	right:-2px;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.sh_block_with_rounded_corners_caro .bottom_left {
+	position:absolute;
+	width:6px;
+	height:6px;
+	font-size:1px;
+	bottom:-2px;
+	left:-2px;
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.sh_block_with_rounded_corners_caro .top_right {
+	position:absolute;
+	width:6px;
+	height:6px;
+	font-size:1px;
+	top:-1px;
+	right:-3px;
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+.sh_block_with_rounded_corners_caro .top_left {
+	position:absolute;
+	width:6px;
+	height:6px;
+	font-size:1px;
+	top:0px;
+	left:-2px;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+.sh_block_with_rounded_corners_caro .list_decorative_dark a:hover {
+ background:transparent; /* Fixes problem in IE (dotted line disappears) */
+}
+/*  End of sh_block_with_rounded_corners */
+
+
+
+/*--------------------------------------------------*/
+/*  block_with_rounded_corners for blue color       */
+/*  Adds rounded corners and blue bar for heading   */
+/*--------------------------------------------------*/
+
+.block_with_rounded_corners_blue {
+ width:99%;
+ background:#fff;
+ border-style:solid;
+ border-color:#669966;
+  border-color:#000;
+ border-width:1px 1px 1px 1px;
+ position:relative; /* Make this the containing block of the corner spans */
+/* margin-bottom:16px;
+*/}
+
+.block_with_rounded_corners_blue h3 {
+ background:#072c95;
+ color:#fff;
+ padding:5px 10px 5px 10px;
+ margin:0px;
+}
+
+.block_with_rounded_corners_blue .bottom_right {
+ position:absolute;
+ width:6px;
+ height:6px;
+ font-size:1px;
+ bottom:-2px;
+ right:-2px;
+ background: url(http://www.cdph.ca.gov/images/block_with_image_corners_blue.gif) top left no-repeat;
+}
+.block_with_rounded_corners_blue .bottom_left {
+ position:absolute;
+ width:6px;
+ height:6px;
+ font-size:1px;
+ bottom:-2px;
+ left:-2px;
+ background: url(http://www.cdph.ca.gov/images/block_with_image_corners_blue.gif) top right no-repeat;
+}
+.block_with_rounded_corners_blue .top_right {
+ position:absolute;
+ width:6px;
+ height:6px;
+ font-size:1px;
+ top:-1px;
+ right:-2px;
+ background: url(http://www.cdph.ca.gov/images/block_with_image_corners_blue.gif) bottom left no-repeat;
+}
+.block_with_rounded_corners_blue .top_left {
+ position:absolute;
+ width:6px;
+ height:6px;
+ font-size:1px;
+ top:-1px;
+ left:-2px;
+ background: url(http://www.cdph.ca.gov/images/block_with_image_corners_blue.gif) bottom right no-repeat;
+}
+
+.block_with_rounded_corners_blue .list_decorative_dark a:hover {
+ background:transparent; /* Fixes problem in IE (dotted line disappears) */
+}
+
+/*  End of block_with_rounded_corners_blue */
+
+/* Carousel CSS Starts */
+
+#carousel {
+	position: relative;
+}
+
+#caro_left {
+	position: absolute;
+	top: 22px;
+	left: -10px;
+}
+
+#caro_right {
+	position: absolute;
+	top: 22px;
+	right: -10px;
+}
+
+#caro_images1 {
+	position: relative;
+	overflow: scroll; /* Show scrollbars for graceful degradation when javascript is disabled. We'll change this to "hidden" in the javascript */
+	height: 74px; /* carousel collapses on resize without this */
+	padding: 7px 0px;
+}
+
+#caro_images2 {
+	white-space: nowrap; 
+	position: absolute;
+	padding: 0px 6px;
+}
+
+#caro_images2 img {
+	border: 0;
+	vertical-align: middle;
+	padding: 0px 10px;
+}
+
+/* Carousel CSS Ends */
+
+
+
+
+
+/* sh_Carousel CSS Starts */
+
+#sh_carousel {
+	position: relative;
+}
+
+#sh_caro_left {
+	position: absolute;
+	top: 37px;
+	left: -10px;
+}
+
+#sh_caro_right {
+	position: absolute;
+	top: 37px;
+	right: -11px;
+}
+
+#sh_caro_images1 {
+	position: relative;
+	overflow: scroll; /* Show scrollbars for graceful degradation when javascript is disabled. We'll change this to "hidden" in the javascript */
+	height: 75px; /* carousel collapses on resize without this */
+	padding: 7px 0px;
+}
+
+#sh_caro_images2 {
+	white-space: nowrap;
+	position: absolute;
+	padding: 0px 6px;
+	top: 8px;
+}
+
+#sh_caro_images2 img {
+	border: 0;
+	vertical-align: middle;
+	padding: 0px 10px;
+}
+/* SH_Carousel CSS Ends */
+
+.h3_caro {
+	color:#fff;
+	font-size:1.2em;
+	text-transform:uppercase;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 20px;
+	margin-bottom: -6px;
+ }
+ .sh_h3_caro {
+	color:#000000;
+	font-size:2em;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	margin: 0px;
+	padding-left: 40px;
+ }
+  .CarouselContainer {
+	MARGIN-TOP: 0px;
+	MARGIN-LEFT: 0px;
+	MARGIN-RIGHT: 0px;
+	COLOR:#ffffff;
+}

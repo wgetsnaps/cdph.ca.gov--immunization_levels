@@ -1,0 +1,87 @@
+﻿.ms-bannerframe .AspNet-Menu-WithChildren li{
+	BORDER-RIGHT: #79a7e3 1px solid;
+	BORDER-TOP: #79a7e3 1px solid;
+	FONT-SIZE: 8pt;
+	BACKGROUND-IMAGE: url(http://www.cdph.ca.gov/_layouts/images/topnavunselected.gif);
+	BORDER-LEFT: #79a7e3 1px solid;
+	BORDER-BOTTOM: medium none;
+	FONT-FAMILY: Tahoma;
+	BACKGROUND-COLOR: #e2efff;
+	float:left;
+	padding:0.25em 1em;
+}
+ .ms-bannerframe .AspNet-Menu-WithChildren a{
+ color:#003399;
+ }
+  
+.ms-bannerframe .AspNet-Menu-Leaf {
+	display:none;
+}
+  
+.ms-topnavselected li{  
+BORDER-RIGHT: #79a7e3 1px solid;  
+BORDER-TOP: #79a7e3 1px solid;  
+FONT-WEIGHT: bold;  
+BACKGROUND: url(http://www.cdph.ca.gov/_layouts/images/topnavselected.gif) #6593cf repeat-x;  
+BORDER-LEFT: #e3efff 1px solid;  
+COLOR: #003399;  
+BORDER-BOTTOM: #79a7e3 0px solid  
+}
+  
+.ms-topnavselected A {
+COLOR: #003399
+  
+}
+  
+.ms-topNavHover li{  
+BORDER-RIGHT: #c2a770 1px solid;  
+BORDER-TOP: #c2a770 1px solid;  
+BACKGROUND-IMAGE: url(http://www.cdph.ca.gov/_layouts/images/topnavhover.gif);  
+BORDER-LEFT: #ffffff 1px solid;  
+COLOR: #000000;  
+BORDER-BOTTOM: #c2a770 0px solid;  
+BACKGROUND-COLOR: #ffe6a0;
+}
+.ms-quicklaunchouter ul {
+	list-style: none;
+}
+.ms-quicklaunouter .AspNet-Menu-WithChildren ul {
+/*	margin-left:10px;
+	border-right: #6f9dd9 1px solid;
+	BORDER-LEFT: #6f9dd9 1px solid;
+*/
+}
+.ms-quicklaunchouter .aspnet-Menu{
+	margin-left: 0px;
+	text-decoration:none;
+}
+.ms-quicklaunchouter ul{
+	margin-left:10px;
+}
+.ms-quicklaunchouter  a.AspNet-Menu-Link{
+	width:100%;	
+	BORDER-BOTTOM: #6f9dd9 1px solid;
+
+}
+
+
+
+/* These are the Site links on System pages */
+.ms-quicklaunchouter ul a{
+/*	 */
+	FONT-SIZE: 10pt;
+	LINE-HEIGHT: 15px;
+	FONT-FAMILY: tahoma;
+	BACKGROUND-COLOR: #d6e8ff;
+	text-decoration:none;
+	padding-left:2px;
+	color: #003399;
+}
+
+/* These are the page links on System Pages */
+.ms-quicklaunchouter li li a.AspNet-Menu-Link{
+	color: #003399;
+	FONT-FAMILY: tahoma;
+	BACKGROUND-COLOR: #f2f8ff;
+	padding-right: 3px;
+}

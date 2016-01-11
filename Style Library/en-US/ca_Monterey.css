@@ -1,0 +1,1205 @@
+﻿
+.ms-siteaction a {
+ color:#ffffff;
+}
+ms-siteaction {
+ color:#ffffff;
+}
+.ms-toolbarItem {
+ display:inherit;
+ white-space: normal;
+}
+.breadcrumb {
+ font-family: Arial, Helvetica, sans-serif;
+ color: #000000;
+ clear: both; 
+ padding-left: 17px;
+ padding-bottom: 2px;
+ padding-top: 4px;
+ border-bottom: 1px #CCCCCC solid;
+ margin-bottom: 0px;
+ background-color: #ecece7;
+}
+
+.breadcrumb a:active {
+ text-decoration:none;
+ color: #656b77;
+}
+
+.breadcrumb:active {
+ text-decoration:none;
+ color: #656b77;
+}
+
+.breadcrumb a {
+ text-decoration:none;
+ color: #656b77;
+}
+
+.breadcrumb a:hover {
+ text-decoration:underline;
+}
+
+.breadcrumbCurrent {
+ font-weight:bold; 
+}
+
+.sharepointLogin {
+ float:right;/**/
+ display: list-item;
+ background-color:#DDDDDD;
+ color:#333333;
+}
+
+.sharepointLogin .ms-globallinks {
+ position:relative;
+}
+
+.topNav2 {
+ clear:both;
+ width:100%;
+ /*background: #253b5a;
+ background-image: url('../../Images/db_SecondaryNav_Bg.jpg');*/
+ background-repeat:repeat-x;
+ background-position:top right;
+ height:21px;
+ color: #ffffff;
+}
+
+.siteActionMenu {
+ float:right;
+ color:#ffffff;
+}
+
+.mainContainer {
+	MARGIN-TOP: 14px;
+	MARGIN-LEFT: 10px;
+	MARGIN-RIGHT: 15px;
+	COLOR:#666666;
+}
+.mainContainerHP {
+	MARGIN-TOP: -20px;
+	MARGIN-LEFT: 10px;
+	MARGIN-RIGHT: 15px;
+	COLOR:#666666;
+}
+#wrap {
+		width:100%;
+		margin:0 auto;
+}
+#main {
+	float:left;
+	width:280px;
+	padding:10px;
+}
+#sidebar {
+	float:left;
+	width:230px;
+	padding:10px;
+	padding-top:25px;
+}
+
+#wrap2 {
+		width:100%;
+		margin:0 auto;
+}
+#main2 {
+	float:left;
+	width:300px;
+	padding:0px;
+}
+#sidebar2 {
+	float:left;
+	width:300px;
+	padding:0px;
+	margin-top:-6px;
+}
+
+#sidebarHI {
+	float:left;
+	width:100px;
+	padding-top:0px;
+	vertical-align:top;
+}
+
+
+.description {	
+	MARGIN-LEFT: 8px;
+	MARGIN-RIGHT: 15px
+	}
+
+/*---------------------------------------------*/
+/*  ca_department.css                          */
+/*  Version 1.20                               */
+/* Last Updated 03/23/2007                     */
+/*                                             */
+/*  Department-specific styles                 */
+/*---------------------------------------------*/
+
+/*---------------------------------------------*/
+/*  main_content_1                             */
+/*---------------------------------------------*/
+
+#left_column a {
+ color:#000;
+}
+
+#left_column ul {
+	/*--- margin: .4em .5em 1em .4em;  --*/
+	margin: .4em .5em 1em 0em; /*css fixed here for left column */
+	padding-left: 0px; /*css fixed here for left column */
+
+}
+/*this spaces out the heading from the links 
+#left_column li.AspNet-Menu-WithChildren ul {	
+	padding-top:5px;
+}*/
+
+#left_column ul ul {
+ margin-top: 0.2em; /*css fixed here for left column */
+ margin-left: 20px; /*css fixed here for left column */
+}
+#left_column ul ul li {
+padding-bottom:3px
+
+}
+.left_column_top {
+ margin: 0;
+ padding: 1px 0 34px 18px;
+ background: #BCC5D0 url(http://www.cdph.ca.gov/Style%20Library/images/left_column_divider.gif) bottom left no-repeat;
+}
+
+.left_column_top a {
+ display:block;
+}
+.left_column_top li.AspNet-Menu-WithChildren{
+ list-style-image:none;
+ color:#bcc5d0;
+}
+.left_column_top a:hover {
+ background:#ECECE7; /* light gray */
+}
+
+.left_column_top a.AspNet-Menu-NonLink:hover {
+ background:#bcc5d0; /* same as background to prevent Hover from showing */
+}
+
+#middle_column .column_inner {
+ overflow:hidden;/**/
+ width:100%;
+ }
+
+.column_inner {
+ /* padding:14px; */
+}
+/**/
+#left_column .column_inner {
+ padding: 8px 0 8px 0;
+ background: #ecece7;
+ width: 100%;
+ overflow:hidden
+}
+
+* html .column_inner {
+ float:left; /* Needed for IE */
+}
+.column_inner { /* Prevent oversized content from breaking the layout 
+ overflow:hidden; actually this broke FireFox*/
+}
+
+#right_column { /* Prevent oversized content from breaking the layout */
+ overflow:hidden;
+}
+
+#amber_alert_on {
+ margin-bottom:10px;
+}
+
+#middle_column .list_decorative_dark li {
+ list-style-image:url(http://www.cdph.ca.gov/Style%20Library/images/bullet_black.gif);
+ padding:2px;
+ margin-bottom:0px;
+}
+
+.list_decorative_dark li {
+ list-style-image:url(http://www.cdph.ca.gov/Style%20Library/images/bullet_black.gif);
+ padding:2px;
+ margin-bottom:0px;
+}
+
+.bullet_body {
+ font-size:9.5pt;
+ color: #666666;
+ font-family:"Courier New", Courier, monospace;
+}
+
+#middle_column .list_decorative_light li {
+ list-style-image:url(http://www.cdph.ca.gov/Style%20Library/images/bullet_gray.gif);
+ padding:2px;
+ margin-bottom:0px;
+}
+
+.list_decorative_light li {
+ list-style-image:url(http://www.cdph.ca.gov/Style%20Library/images/bullet_gray.gif);
+ padding:2px;
+ margin-bottom:0px;
+}
+
+#middle_column .list_decorative_blue li {
+ list-style-image:url(http://www.cdph.ca.gov/Style%20Library/images/bullet_blue.gif);
+ padding:2px;
+ margin-bottom:0px;
+}
+
+/* originally called .list_decorative_blue li in State Template */
+.left_column_top .AspNet-Menu-Leaf  {
+ list-style-image:url(http://www.cdph.ca.gov/Style%20Library/images/bullet_blue.gif);
+ padding:2px;
+ margin-bottom:0px;
+}
+
+.list_decorative_dark a {
+ text-decoration:none;
+ display:block;
+ border-bottom:1px dotted #999999;
+}
+
+.list_decorative_light a {
+ text-decoration:none;
+ display:block;
+ border-bottom:1px dotted #ECECE7;
+}
+
+.list_decorative_blue a {
+ text-decoration:none;
+ display:block;
+ border-bottom:1px dotted #253B5A;
+}
+
+.list_decorative_blue a:hover {
+ text-decoration:underline;
+}
+
+.list_decorative_light a:hover {
+ text-decoration:underline;
+}
+
+.list_decorative_dark a:hover {
+ text-decoration:underline;
+}
+
+h1 {
+  font-family: Verdana, Tahoma, Arial, Sans-Serif;
+  font-weight: bold;
+  font-size: 1.7em;
+  margin: 1em 0 1em 0;
+  color:#666666;
+  /*letter-spacing: .5em;*/
+}
+
+h2 {
+  font-family: Verdana, Tahoma, Arial, Sans-Serif; 
+  font-weight: bold; 
+  font-size: 1.5em;
+  margin: 1em 0 .5em 0;
+ }
+
+h3 {
+  font-family: Verdana, Tahoma, Arial, Sans-Serif; 
+  font-weight: bold; 
+  font-size: 1.3em;
+  margin: 1em 0 .5em 0;
+}
+
+h4 {
+  font-family: Verdana, Tahoma, Arial, Sans-Serif; 
+  font-weight: bold; 
+  font-size: 1.2em;
+  margin: 1em 0 .5em 0;
+}
+
+h5 {
+  font-family: Verdana, Tahoma, Arial, Sans-Serif; 
+  font-weight: bold;
+  font-size: 1.1em;
+  margin: 1em 0 .5em 0;
+}
+h6 {
+  font-family: Verdana, Tahoma, Arial, Sans-Serif; 
+  font-weight: bold;
+  font-size: 1em;
+  margin: 1em 0 .5em 0;
+}
+
+hr {
+ background-color: #C84B13;
+ height: 2px;
+ border: 0;
+}
+
+#middle_column ul li {
+	list-style: disc;
+	margin-bottom: 10px;
+}
+
+#middle_column li ul li {
+	list-style: circle;
+	margin-bottom: 5px;
+}
+
+#middle_column menu {
+	list-style-image:url('http://www.cdph.ca.gov/Style%20Library/Images/bullet_darkgray.gif');
+}
+
+#middle_column menu li {
+	margin-bottom: 3px;
+}
+
+#middle_column menu li menu {
+	margin-top: 3px;
+}
+
+/*---------------------------------------------*/
+/*  ca_master.css                              */
+/*  Version 1.20                               */
+/* Last Updated 03/23/2007                     */
+/*                                             */
+/*  Master template styles                     */
+/*---------------------------------------------*/
+
+#pagefooter {
+ min-width:800px;
+ width: 100%;
+ text-align: left;
+ margin: 0;
+}
+
+#main_content_1 {
+ min-width:800px;
+ width: 100%;
+ text-align: left;
+ margin: 0;
+ float:left
+}
+
+#navigation {
+ min-width:800px;
+ width: 100%;
+ text-align: left;
+ margin: 0;
+}
+
+#heading {
+ min-width:800px;
+ width: 100%;
+ text-align: left;
+ margin: 0;
+}
+
+/*---------------------------------------------*/
+/*  heading                                    */
+/*---------------------------------------------*/
+
+#heading {
+ border-top:4px solid #253B5A;
+ height:80px;
+ position:relative;
+}
+
+#heading img {
+ float:left;
+}
+
+#state_logo {
+ width:118px;
+ height:77px;
+ display:block;
+ float:left;
+ background:#fff url(http://www.cdph.ca.gov/Style%20Library/images/logo.gif) no-repeat;
+}
+
+#heading #search_and_skipto {
+ position:absolute;
+ right:0px;
+ top:0px;
+ width:39em;
+}
+
+#heading #search_container {
+ BACKGROUND: url(http://www.cdph.ca.gov/style%20Library/images/search_bg.gif) #ccd4df no-repeat left bottom;	
+ FLOAT: right;	
+ MARGIN: 0px;	
+ WIDTH: 20em;	
+ HEIGHT: 50px
+}
+
+#heading #searchbox {
+ padding: 0 0 0 14px;
+ width: 15em;
+ position: relative;
+ top: 3px; /* adjust the text box */
+ margin: 0 0 0 0px;
+ float: left;
+}
+#heading #searchbut {
+ position:relative;
+ margin-top:3px; /* Line up the submit button with the text box */
+ padding-left:15em;
+}
+
+#heading #skipto_container {
+ float:left;
+ margin:6px 0 0 0;
+ color:#90897D;
+}
+
+#heading form {
+ margin:0;
+ float:right;
+ width:20em;
+}
+#heading form p {
+ margin:0;
+}
+#heading form input {
+ margin:0;
+}
+#heading #submitbutton {
+ position:relative;
+ top:3px; /* Line up the submit button with the text box */
+}
+
+/*---------------------------------------------*/
+/*   search form with radio buttons            */
+/*---------------------------------------------*/
+
+#heading #control p {
+ float:right;
+ clear:right;
+}
+
+#textfield_container {
+ padding:6px 40px 0 0;
+ text-align:right;
+}
+
+#radio_container {
+ width:100%;
+ text-align:right;
+ display:none; /* Display this only if javascript is enabled, so we'll unhide this using javascript */
+}
+
+#radio_container span {
+ padding-right:40px;
+}
+
+#submit_container {
+ position:absolute;
+ top:3px; /* Line up the submit button with the text box */
+ right:8px;
+}
+
+#heading #control #search {
+ top:0px;
+ margin:0px;
+}
+
+#heading #control #submitbutton {
+ position:relative;
+ top:0px;
+}
+
+#heading #control .radiobutton{
+ position:relative;
+ top:2px;
+}
+
+form > #radio_container { /* Hack applies to FF and IE7 */
+ padding-top:5px; /* for FF */
+}
+*+html #radio_container { /* Hack applies to IE5 and IE7 */
+ padding-top:0; /* for IE7 */
+}
+
+
+/*---------------------------------------------*/
+/*  navigation                                 */
+/*---------------------------------------------*/
+
+#navigation {
+ padding: 0;
+ position:relative; /* Makes this the containing block */
+ /*background: #253B5A;  Blue, needed for empty sublists */
+ height:60px;
+ white-space: nowrap;
+ padding-top:27px;  /*this is put in for Firefox, IE versions are adjusted back below */
+}
+/* Hack for IE6 - Firefox and IE7 won's see this style */
+* html #navigation{
+ padding-top:0px;
+}
+/* Hack for IE7 - Firefox and IE6 won's see this style */
+*+ html #navigation{
+padding-top:0px;
+}
+
+#navigation ul {
+ position: absolute; /* Needed for FF, background */
+ margin: 0;
+ padding: 0 0 0 10px;
+ height: 30px;
+ z-index:1;
+ width:60em; /* *** Adjust this to match the actual width of the tabs. *** */
+}
+
+#navigation a {
+ color: #fff;
+ font-weight: bold;
+ text-decoration: none;
+ display: block;
+ padding:9px 6px 0px 6px;
+ float:left;
+ background: transparent url(http://www.cdph.ca.gov/Style%20Library/images/navigation_tabs.gif) top right no-repeat;
+ position:relative;
+ height:30px; /* Needed for IE 5.x broken box */
+ voice-family:"\"}\"";
+ voice-family:inherit;
+ height:21px; /* 30 - 9, for non-broken browsers */
+}
+
+#navigation a:hover {
+ text-decoration: underline;/**/
+}
+
+#navigation a span {
+ background: transparent url(http://www.cdph.ca.gov/Style%20Library/images/navigation_tabs.gif) top left no-repeat;
+ height:30px;
+ width:7px;
+ display:block;
+ font-size:1px;
+ position:absolute;
+ top:0px;
+ left:0px;
+}
+
+#navigation li {
+ margin: 0 0 0 3px;
+ float: left;
+ display: block;
+ list-style: none;
+ background: transparent url(http://www.cdph.ca.gov/Style%20Library/images/navigation_tabs.gif) top left no-repeat;
+}
+
+#navigation li ul {
+ display: none; /* Hide sublists */
+ width:790px; /* 800 - 10, IE needs this to be fixed width */
+ top: 30px; /* moves the sublist below main list */
+ left: 0px;
+}
+
+
+#navigation li.mouse_over a {
+ background: transparent url(http://www.cdph.ca.gov/Style%20Library/images/navigation_tabs.gif) 100% -60px  no-repeat;
+}
+
+
+#navigation li:hover a {
+ background: transparent url(http://www.cdph.ca.gov/Style%20Library/images/navigation_tabs.gif) 100% -60px  no-repeat;
+}
+#navigation li.mouse_over a span {
+ background: transparent url(http://www.cdph.ca.gov/Style%20Library/images/navigation_tabs.gif) 0px -60px  no-repeat;
+}
+
+#navigation li:hover a span {
+ background: transparent url(http://www.cdph.ca.gov/Style%20Library/images/navigation_tabs.gif) 0px -60px  no-repeat;
+}
+
+#navigation #nav_list li li a {
+ background-image: none;
+ background-color: transparent; /* Needed to make dividers visible */
+}
+
+#navigation li.nav_default_off a {
+ background: transparent url(http://www.cdph.ca.gov/Style%20Library/images/navigation_tabs.gif) 100% -120px no-repeat;
+}
+
+#navigation li.nav_default_on a {
+ background: transparent url(http://www.cdph.ca.gov/Style%20Library/images/navigation_tabs.gif) 100% -120px no-repeat;
+}
+
+#navigation li.nav_default_off a span {
+ background: transparent url(http://www.cdph.ca.gov/Style%20Library/images/navigation_tabs.gif) 0% -120px no-repeat;
+}
+
+#navigation li.nav_default_on a span {
+ background: transparent url(http://www.cdph.ca.gov/Style%20Library/images/navigation_tabs.gif) 0% -120px no-repeat;
+}
+
+#navigation #background_top {
+ position:absolute;
+ width:100%;
+ height:30px;
+ background: #fff; /* First row, white */
+}
+
+/*--------------------------------------------------------*/
+/*  amber_alert_on                                        */
+/*  Active Amber Alert banner                             */
+/*--------------------------------------------------------*/
+
+#amber_alert_on {
+ position:relative; /* Makes this the containing block */
+ background: transparent url(http://www.cdph.ca.gov/Style%20Library/images/amber_alert_on_background.gif) repeat-x;
+ height:57px;
+}
+
+#amber_alert_on #amber_alert_on_left {
+ position:absolute;
+ left:0px;
+ background: transparent url(http://www.cdph.ca.gov/Style%20Library/images/amber_alert_on_left.gif) no-repeat;
+ width:203px;
+ height:57px;
+}
+
+#amber_alert_on #amber_alert_on_right {
+ position:absolute;
+ right:-1px; /* Fixes IE6 issue */
+ background: transparent url(http://www.cdph.ca.gov/Style%20Library/images/amber_alert_on_right.gif) no-repeat;
+ width:10px;
+ height:57px;
+}
+
+#amber_alert_on p {
+ text-align:right;
+ position:relative;
+ padding-top:7px;
+ margin:0px 10px 0px 0px;
+ z-index:10;
+}
+
+#amber_alert_on strong {
+ font-weight:normal;
+ font-size:1.5em;
+ text-transform:uppercase;
+}
+
+#amber_alert_on {
+}
+
+
+/*--------------------------------------------------------*/
+/*  statewide_banners                                     */
+/*  Flex Your Power and Amber Alert banners               */
+/*--------------------------------------------------------*/
+
+.statewide_banners strong {
+ text-align:center;
+ display:block;
+}
+
+.statewide_banners div {
+ float:left;
+ width:234px;
+ padding:0 30px 0 0;
+ margin:.7em 0em .9em 0em;
+}
+
+.statewide_banners img {
+ display:block;
+ margin:6px 0;
+}
+
+/*---------------------------------------------*/
+/*  footer                                     */
+/*---------------------------------------------*/
+
+#pagefooter {
+ text-align: center;
+}
+
+#pagefooter div {
+ position:relative;
+ padding:8px;
+ height:1.5em; /* Needed for IE */
+}
+#pagefooter div a {
+ color:#fff;
+ background-color:transparent;
+}
+#pagefooter div span {
+ width:7px;
+ height:7px;
+ position:absolute;
+ bottom:0px;
+ right:0px;
+ display:block;
+ font-size:1px;
+}
+
+* html #pagefooter div span { /* Fix for IE, hack hides this from FF */
+ height:8px;
+ bottom:-1px;
+}
+
+/*---------------------------------------------*/
+/*  Miscellaneous other styles                 */
+/*---------------------------------------------*/
+
+.governor_website {
+ display:block;
+ text-align:center;
+ margin:0px 0 4px 0;
+ clear:both;
+}
+
+a:link {
+ color: #3754d4;
+}
+
+a:visited {
+ color: #8b3f1d;
+}
+/* hidden as it was changing the SiteActions button as well.
+a:hover {
+ color: #bc3e06;
+ background-color:#ecece7;
+}*/
+
+a:active {
+ color: #bc3e06;
+}
+
+img {
+ border:0px;
+}
+
+.hidden {
+ display:none; /* For IE 4 only */
+}
+
+@media all{ /* Hide this from IE 4 */
+ .hidden { /* Hide from regular displays.  Screen readers can still read it. */
+  display:block;
+  position: absolute;
+  left: -9999px;
+  top: 0;
+ }
+}
+
+.cleaner {
+ clear:both;
+ height:2px;
+ font-size:1px;
+ border:none;
+ margin:0 0 -2px 0;
+ padding:0 !important;
+ width:auto !important;
+ float:none !important;
+}
+
+p {
+ margin:.7em 0em .9em 0em;
+}
+
+#middle_column ul {
+ margin: 1em 0em 1em 1.4em;
+ padding: 0em 0em 0em 1.4em;
+}
+
+#middle_column ul ul {
+ margin: 0em 0em 0em 1.4em;
+ padding: .2em 0em .2em 1.4em;
+}
+
+/*---------------------------------------------*/
+/*  For Print                                  */
+/*---------------------------------------------*/
+
+@media print{
+
+ #pagefooter div { /* Hides the nav, search and footer */
+  display:none;
+ }
+
+ #heading div { /* Hides the nav, search and footer */
+  display:none;
+ }
+ 
+ #heading {
+	display:none;
+ }
+
+ .breadcrumb {
+	display:none;
+ }
+ #navigation { /* Hides the nav, search and footer */
+  display:none;
+ }
+
+ #pagefooter {
+  min-width:inherit;
+  display:none;
+ }
+
+ #main_content_1 {
+  min-width:inherit;
+ }
+
+ #navigation {
+  min-width:inherit;
+ }
+
+ #heading {
+  min-width:inherit;
+ }
+
+ .column_inner {
+  display:inline; /* Needed for FF */
+ }
+
+}
+/*---------------------------------------------*/
+/*  content_2_column.css                       */
+/*  Version 1.20                               */
+/* Last Updated 03/23/2007                     */
+/*                                             */
+/*  Styles for the two-column content area     */
+/*---------------------------------------------*/
+
+#main_content_1 {
+ margin:0;
+ padding:0;
+ background:url("http://www.cdph.ca.gov/Style%20Library/images/left_column_bg.gif") top left repeat-y;
+}
+
+#main_content_2 {
+ margin:0;
+ padding:0;
+}
+
+#left_column {
+ float:left;
+ width:199px;
+ margin:0;
+ padding:0;
+}
+
+#right_column {
+ float:right;
+ width:199px;
+ margin:0;
+ padding:0;
+ display:none;
+}
+
+
+#middle_column {
+ margin: 0 0 0 199px;
+}
+
+
+/*---------------------------------------------*/
+/*  For Print                                  */
+/*---------------------------------------------*/
+
+@media print{
+
+ #left_column { /* Hides the left column */
+  display:none;
+ }
+
+ #middle_column {
+  margin:0;
+ }
+
+ #main_content_1 {
+  background-image:none;
+ }
+
+}
+
+/*---------------------------------------------*/
+/*  navigation_2_level.css                     */
+/*  Version 1.20                               */
+/* Last Updated 03/23/2007                     */
+/*                                             */
+/*  Styles for the two-level navigation        */
+/*---------------------------------------------*/
+
+#navigation li li a {
+ font-weight: normal;
+ background-image: none;
+ height:21px;
+}
+
+#navigation li li {
+ background: transparent url(http://www.cdph.ca.gov/Style%20Library/images/navigation_divider.gif) no-repeat 100% 11px; /* Dividers in the sublist */
+}
+
+#navigation li.mouse_over ul { /* Show sublist of hovered item */
+ display: block;
+}
+
+body:last-child #navigation li:hover ul { /* Show sublist of hovered item, hack hides this from Opera, works in FF & Safari(?) */
+ display: block;
+}
+
+* html #navigation li:hover ul { /* Show sublist of hovered item, hack hides this from Opera, works in IE */
+ display: block;
+}
+
+#navigation li.nav_default_on ul { /* Show sublist of current page */
+ display: block;
+}
+
+#navigation li.nav_default_off ul { /* Hide sublist of current page */
+ display: none;
+}
+
+/*=================================================================================================================
+color scheme 2
+=========================================*/
+/*---------------------------------------------*/
+/*  color_scheme_02_ca.css                     */
+/*  Version 1.20                               */
+/* Last Updated 03/23/2007                     */
+/*                                             */
+/*  C84B13 / 253B5A                            */
+/*---------------------------------------------*/
+
+#heading {
+ border-top:4px solid #253B5A; /* border across top of page */
+ clear:both;
+}
+
+#state_logo {
+ background:#fff url(http://www.cdph.ca.gov/Style%20Library/images/logo.gif) no-repeat;
+}
+
+.topNav2 { 
+ background: #4d7fb2; /* background of second row of navigation */
+ margin-top:30px;
+ height:30px;
+ float:left;
+ clear:both;
+}
+
+#navigation a {
+ background: #669454 url(http://www.cdph.ca.gov/Style%20Library/images/navigation_tabs.gif) top right no-repeat;
+}
+
+#navigation li li {
+ background: transparent url(http://www.cdph.ca.gov/Style%20Library/images/navigation_divider.gif) no-repeat 100% 11px; /* Dividers in the sublist */
+}
+
+#navigation a span {
+ background: transparent url(http://www.cdph.ca.gov/Style%20Library/images/navigation_tabs.gif) top left no-repeat;
+}
+
+#navigation li.mouse_over a {
+ background: #4d7fb2 url(http://www.cdph.ca.gov/Style%20Library/images/navigation_tabs.gif) 100% -60px  no-repeat;
+}
+
+#navigation li:hover a {
+ background: #4d7fb2 url(http://www.cdph.ca.gov/Style%20Library/images/navigation_tabs.gif) 100% -60px  no-repeat;
+}
+
+#navigation li.mouse_over a span {
+ background: transparent url(http://www.cdph.ca.gov/Style%20Library/images/navigation_tabs.gif) 0px -60px  no-repeat;
+}
+
+#navigation li:hover a span {
+ background: transparent url(http://www.cdph.ca.gov/Style%20Library/images/navigation_tabs.gif) 0px -60px  no-repeat;
+}
+
+#navigation li.nav_default_off a {
+ background: #4d7fb2 url(http://www.cdph.ca.gov/Style%20Library/images/navigation_tabs.gif) 100% -120px no-repeat;
+}
+
+#navigation li.nav_default_on a {
+ background: #4d7fb2 url(http://www.cdph.ca.gov/Style%20Library/images/navigation_tabs.gif) 100% -120px no-repeat;
+}
+
+#navigation li.nav_default_off a span {
+ background: transparent url(http://www.cdph.ca.gov/Style%20Library/images/navigation_tabs.gif) 0% -120px no-repeat;
+}
+
+#navigation li.nav_default_on a span {
+ background: transparent url(http://www.cdph.ca.gov/Style%20Library/images/navigation_tabs.gif) 0% -120px no-repeat;
+}
+
+#pagefooter div {
+ background: #4d7fb2 url(http://www.cdph.ca.gov/Style%20Library/images/Monterey-footer_corners.gif) no-repeat -8px 100%;
+ color:#fff;
+}
+
+#pagefooter div span {
+ background: transparent url(http://www.cdph.ca.gov/Style%20Library/images/Monterey-footer_corners.gif) no-repeat;
+}
+
+
+/*Headings on LeftNav 
+.left_column_top ul.AspNet-Menu  {
+ list-style-image:url(/Style%20Library/images/bullet_blue.gif);
+ padding-left: 12px;
+}*/
+
+/* This is the Group header name for LeftNav */
+.AspNet-Menu-NonLink {
+ font-weight: bold;
+ font-size: 1.2em;
+}
+/*Links on LeftNav */
+.left_column_top ul.AspNet-Menu ul{
+ list-style-image:url(http://www.cdph.ca.gov/Style%20Library/images/bullet_blue.gif);
+ padding-left: 10px;
+}
+
+.left_column li{
+ padding-bottom:15px;
+}
+/*.left_column li.AspNet-Menu-Leaf{
+ padding-bottom:5px;
+}
+
+.AspNet-Menu-Link a {
+ text-decoration:none;
+ display:block;
+ border-bottom:1px dotted #253B5A;
+ color:lime;
+}
+*/
+.left_column_top a.AspNet-Menu-Link  {
+ text-decoration:none;
+ display:block;
+ border-bottom:1px dotted #253B5A;
+}
+
+body {
+ margin:0;
+ padding:0;
+ font-family:Arial, Helvetica, sans-serif;
+ font-size:0.8em;
+}
+
+#sitemapcontent {
+ margin-left: 40px;
+ margin-bottom: 10px;
+}
+#sitemapcontent .ms-WPHeader{
+ display:none;
+}
+
+.level-header {
+ MARGIN-LEFT: 10px
+}
+.level-item-pos {
+ MARGIN-LEFT: 15px
+}
+ul, menu, dir {
+  -moz-padding-start: 5px;
+}
+.bodyWP {
+ margin:0;
+ padding:0;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size:12px;
+ color:#666666
+}
+.ms-WPBody
+{
+font-size:13px;
+font-family:arial,verdana,helvetica,sans-serif;
+}
+.ms-WPBody TABLE,.ms-TPBody TABLE
+{
+font-size:13px;
+}
+.ms-WPBody A:link,.ms-WPBody A:visited
+{
+color:#3754d4;
+text-decoration:underline;
+font-size:12px;;
+}
+.ms-WPBody A:hover
+{
+color:#3754d4;
+text-decoration:underline;
+font-size:12px;
+}
+.ms-WPBody th,.ms-TPBody th
+{
+font-weight:bold;
+}
+.ms-WPBody td
+{
+font-size:12px;
+font-family:arial,verdana,helvetica,sans-serif;
+}
+.ms-WPBody h1,.ms-TPBody h1
+{
+font-weight:normal;
+font-size:16px;
+color:#666666;
+}
+.ms-WPBody h2,.ms-TPBody h2
+{
+font-weight:bold;
+font-size:150%;
+}
+.ms-WPBody h3,.ms-TPBody h3
+{
+font-weight:bold;
+font-size:120%;
+}
+.ms-WPBody h4,.ms-TPBody h4
+{
+font-weight:bold;
+font-size:100%;
+}
+.ms-WPBody h5,.ms-TPBody h5
+{
+font-weight:bold;
+font-size:80% 
+}
+.ms-WPBody h6,.ms-TPBody h6
+{
+font-weight:bold;
+font-size:65%;
+}
+.ms-BlogNavigator div.ms-WPBody{
+border-top:solid 1px #add1ff;
+}
+.ms-WelcomeWPTitle
+{
+font-weight:Bold;
+font-size:18px;
+color:#666666;
+font-family:verdana,arial,helvetica,sans-serif;
+}
+
+/*-- Add survey link to CDPH website --*/
+
+#survey{
+  float:right; 
+  margin: -1px 295px 0px 0px;
+}
+
+#surveylink 
+{
+	background: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

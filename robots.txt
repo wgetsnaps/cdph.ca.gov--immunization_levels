@@ -1,0 +1,5 @@
+# robots.txt Created by Russ Rogers
+User-agent: *
+Disallow: 
+Disallow: /pages/ExpressLane.aspx
+Disallow: /search/
